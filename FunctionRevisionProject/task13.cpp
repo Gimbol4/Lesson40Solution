@@ -10,7 +10,7 @@ int main()
     return 0;
 }
 
-... substring(... str, ... start, ... length)
+string substring(string str, int start, int length)
 {
     string result;
     for (int i = start; i < start + length && i < str.length(); i++)

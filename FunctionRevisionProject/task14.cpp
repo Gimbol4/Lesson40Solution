@@ -4,6 +4,10 @@
 #include <iostream>
 using namespace std;
 
+bool is_digit(char ch, bool flag) {
+    return flag && (ch <= '9' && ch >= '0');
+}
+
 int main()
 {
     cout << is_digit('5', true);

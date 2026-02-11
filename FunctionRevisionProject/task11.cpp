@@ -5,13 +5,15 @@
 #include <iostream>
 using namespace std;
 
+bool abs_value(double num, bool take_abs);
+
 int main()
 {
     cout << abs_value(-5.5, true);
     return 0;
 }
 
-... abs_value(... num, ... take_abs)
+bool abs_value(double num, bool take_abs)
 {
     return take_abs ? (num < 0 ? -num : num) : num;
 }

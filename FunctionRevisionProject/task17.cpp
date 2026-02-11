@@ -4,8 +4,13 @@
 #include <iostream>
 using namespace std;
 
+void print(string str) {
+    cout << str;
+}
+
 int main()
 {
+    print("Hello");
     return 0;
 }
 

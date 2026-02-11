@@ -3,15 +3,13 @@
 #include <iostream>
 using namespace std;
 
-char print_сhar_and_string(char symbol, string text)
+void print_сhar_and_string(char symbol, string text)
 {
   cout << symbol << ": " << text;
 }
 
 int main()
 {
-    char symbol;
-    string text;
-    char print_char_and_string(symbol, text);
+    print_сhar_and_string('F', "your mark");
     return 0;
 }
