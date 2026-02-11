@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 
-... concat(... ch, ... str)
+string concat(char ch, string str)
 {
     return "" + ch + str;
 }

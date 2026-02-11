@@ -4,13 +4,15 @@
 #include <iostream>
 using namespace std;
 
+long long subtract(long long num, int num1);
+
 int main()
 {
     cout << subtract(10000000000LL, 100);
     return 0;
 }
 
-... subtract(...)
+long long subtract(long long num, int num1)
 {
-    return ...;
+    return num - num1;
 }

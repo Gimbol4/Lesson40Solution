@@ -2,13 +2,14 @@
 #include <iostream>
 using namespace std;
 
-... check_positive(... num, ... strict)
+bool check_positive(float num, bool strict)
 {
     return strict ? num > 0 : num >= 0;
 }
 
 int main()
 {
+   check_positive(3.14f, true);
     return 0;
 }
 

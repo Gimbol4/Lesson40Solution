@@ -4,10 +4,14 @@
 #include <iostream>
 using namespace std;
 
-... divide(...);
+double divide(double num, float num1);
 
 int main()
 {
     cout << divide(10.5, 2.0f);
     return 0;
+}
+
+double divide(double num, float num1) {
+    return num / num1;
 }

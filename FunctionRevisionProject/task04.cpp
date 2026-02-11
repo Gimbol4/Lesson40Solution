@@ -4,13 +4,15 @@
 #include <iostream>
 using namespace std;
 
+bool is_even(bool flag, int num);
+
 int main()
 {
     cout << is_even(true, 4);
     return 0;
 }
 
-... is_even(... flag, ... num)
+bool is_even(bool flag, int num)
 {
     return flag && (num % 2 == 0);
 }

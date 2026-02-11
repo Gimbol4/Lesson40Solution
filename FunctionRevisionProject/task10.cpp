@@ -4,6 +4,10 @@
 #include <iostream>
 using namespace std;
 
+int print_message(string str) {
+
+}
+
 int main()
 {
     print_message("Hello, C++!");

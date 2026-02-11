@@ -1,5 +1,10 @@
-﻿#include <iostream>
+﻿// Задание 1: Добавьте прототип функции, которая принимает целочисленное 
+// и вещественное значения и возвращает их произведение.
+
+#include <iostream>
 using namespace std;
+
+double multiply(int, float);
 
 int main()
 {
@@ -7,7 +12,6 @@ int main()
     return 0;
 }
 
-double multiply() {
-    double res = 
-    return res;
+double multiply(int a, float b) {
+    return a * b;
 }
