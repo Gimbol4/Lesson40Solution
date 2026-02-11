@@ -1,7 +1,7 @@
-//#include <iostream>
+п»ї//#include <iostream>
 //#include <Windows.h>
 //
-// Это коментарий на русском
+// Р­С‚Рѕ РєРѕРјРµРЅС‚Р°СЂРёР№ РЅР° СЂСѓСЃСЃРєРѕРј
 //using namespace std;
 //
 //int reverse(int a);
