@@ -4,11 +4,13 @@
 #include <iostream>
 using namespace std;
 
+int sub(int a, int b);
+
 int main() {
     cout << sub(12, 3);
     return 0;
 }
 
-... sub(...) {
-    return ...;
+int sub(int a, int b) {
+    return a - b;
 }
