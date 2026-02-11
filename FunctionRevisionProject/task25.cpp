@@ -4,8 +4,8 @@
 #include <iostream>
 using namespace std;
 
-int factorial(int a) {
-    int res;
+long long factorial(int a) {
+    long long res;
     while (a > 0) {
         res = a * (a - 1);
         a--;
